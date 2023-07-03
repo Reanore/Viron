@@ -26,8 +26,8 @@ Install Viron with Cargo
 Build and run the program
 
 ```bash
-    $ cargo build
-    $ cd /target/debug
+    $ cargo build --release
+    $ cd /target/release
     $ ./Viron
 ```
     
