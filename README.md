@@ -1,7 +1,7 @@
 
 # OpenVironment
 
-An open-source GTK-based text editor for the GNU/Linux operating system
+An open-source GTK-based text editor for GNU/Linux operating systems
 
 
 ## License
