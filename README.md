@@ -16,11 +16,11 @@ An open-source GTK-based text editor/development environment for GNU/Linux opera
 
 ## Installation
 
-Install OpenVironment with Cargo
+Install Viron with Cargo
 
 ```bash
-    $ git clone https://github.com/Reanore/OpenVironment.git
-    $ cd OpenVironment
+    $ git clone https://github.com/Reanore/Viron.git
+    $ cd Viron
 ```
 
 Build and run the program
@@ -28,7 +28,7 @@ Build and run the program
 ```bash
     $ cargo build
     $ cd /target/debug
-    $ ./OpenVironment
+    $ ./Viron
 ```
     
 ## Features
@@ -43,12 +43,11 @@ Build and run the program
 
 #### What makes this different from Visual Studio Code and Vim
 
-Unlike Visual Studio Code and Vim. OpenVironment, and other products by Viron are specifically made for the GNU/Linux operating system. Which means Viron products will get long-term support (LTS) for Linux machines.
+Unlike Visual Studio Code and Vim. Viron, and other products by Viron are specifically made for the GNU/Linux operating system. Which means Viron products will get long-term support (LTS) for Linux machines.
 
-#### Viron Pro isn't free, linux only uses freeware
+#### linux only uses freeware
 
-Viron is not freeware as it falls under the GNU General Public License and Viron Pro is proprietary software, but anyone can still use it since it functions the same as Viron but requires users to buy a license to be able to use the complete bundle.
-
+Viron is freeware as it falls under the GNU General Public License. Which means people can modify the product but not distribute it commercially.
 
 ## Feedback
 
