@@ -1,5 +1,5 @@
 
-# OpenVironment
+# Viron
 
 An open-source GTK-based text editor/development environment for GNU/Linux operating systems
 
