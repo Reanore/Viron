@@ -1,7 +1,7 @@
 
 # OpenVironment
 
-An open-source GTK-based text editor for GNU/Linux operating systems
+An open-source GTK-based text editor/development environment for GNU/Linux operating systems
 
 
 ## License
@@ -47,7 +47,7 @@ Unlike Visual Studio Code and Vim. OpenVironment, and other products by Viron ar
 
 #### Viron Pro isn't free, linux only uses freeware
 
-OpenVironment is not freeware as it falls under the GNU General Public License and Viron Pro is proprietary software, but anyone can still use it since it functions the same as Viron but requires users to buy a license to be able to use the complete bundle with proprietary software that cannot be cracked.
+Viron is not freeware as it falls under the GNU General Public License and Viron Pro is proprietary software, but anyone can still use it since it functions the same as Viron but requires users to buy a license to be able to use the complete bundle.
 
 
 ## Feedback
