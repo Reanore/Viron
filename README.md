@@ -19,16 +19,16 @@ An open-source GTK-based text editor for the GNU/Linux operating system
 Install OpenVironment with Cargo
 
 ```bash
-    git clone https://github.com/Reanore/OpenVironment.git
-    cd OpenVironment
+    $ git clone https://github.com/Reanore/OpenVironment.git
+    $ cd OpenVironment
 ```
 
 Build and run the program
 
 ```bash
-    cargo build
-    cd /target/debug
-    ./OpenVironment
+    $ cargo build
+    $ cd /target/debug
+    $ ./OpenVironment
 ```
     
 ## Features
