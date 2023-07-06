@@ -2,7 +2,7 @@ use gtk::prelude::{ApplicationExtManual, ApplicationExt};
 use gtk::traits::GtkWindowExt;
 use gtk::{Application, glib, ApplicationWindow};
 
-const APP_ID: &str = "temp.temp.viron";
+const APP_ID: &str = "org.vironapp.Viron";
 const TITLE: &str = "Viron";
 
 fn build_ui(app: &Application) {
