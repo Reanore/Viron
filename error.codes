@@ -1,0 +1,14 @@
+// 001-050 = System errors
+VIR-001 // Viron failed to start
+
+// 051-100 = Application errors
+VIR-051 // Action failed (SYS_REQ)
+VIR-052 // Action failed (NET_REQ)
+VIR-053 // Action failed (NO_UTIL)
+VIR-054 // Action failed (NO_TARG)
+VIR-055 // Action failed (UTIL_INT_ERR)
+VIR-056 // Action failed (TARG_INT_ERR) 
+VIR-057 // Action failed (INT_ERR)
+VIR-058
+VIR-059
+VIR-060
