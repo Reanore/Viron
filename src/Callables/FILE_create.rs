@@ -1,7 +1,7 @@
 extern crate gtk;
-use gtk::prelude::*;
+use std::fs::File;
+use std::io::prelude::*;
 use gtk::{ButtonsType, DialogFlags, MessageType, MessageDialog, Window};
-use std::fs
 
 fn dialog(message) {
     if gtk::init().is_err() {
@@ -14,14 +14,14 @@ fn dialog(message) {
                 DialogFlags::empty(),
                 MessageType::Info,
                 ButtonsType::Ok,
-                "File deleted successfully").run();
+                "File created successfully").run();
         }
-        "NoFile" => {
+        "FileExists" => {
             MessageDialog::new(None::<&Window>,
                 DialogFlags::empty(),
                 MessageType::Info,
                 ButtonsType::Ok,
-                "File not found").run();
+                "File already exists").run();
         }
         _ => {
             MessageDialog::new(None::<&Window>,
@@ -33,11 +33,11 @@ fn dialog(message) {
     }
 }
 
-fn main(path, file_to_remove) {
-    if (!file_to_remove) {
-        dialog("NoFile")
+fn main(file_to_create) -> std::io::Result<()> {
+    let b = std::path::Path::new(fp).exists();
+    if b {
+        let mut file = File::create(file_to_create)?;
+        file.write_all(b"")?;
+        Ok(())
     }
-    fs::remove_file(file_to_remove)
-        .expect(dialog());
-    success();
 }
