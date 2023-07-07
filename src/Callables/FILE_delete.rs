@@ -1,7 +1,7 @@
 extern crate gtk;
 use gtk::prelude::*;
 use gtk::{ButtonsType, DialogFlags, MessageType, MessageDialog, Window};
-use std::fs
+use std::fs;
 
 fn dialog(message) {
     if gtk::init().is_err() {
