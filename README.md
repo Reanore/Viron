@@ -35,8 +35,8 @@ Build and run the program
 
 - Light/dark mode toggle
 - Live previews
-- Fullscreen mode
-- Portable (using the right tools)
+- Git visualization
+- GitHub CLI support (and GitHub CLI authentication)
 
 
 ## FAQ
