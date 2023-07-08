@@ -28,7 +28,7 @@ Build and run the program
 ```bash
     $ cargo build --release
     $ cd /target/release
-    $ ./Viron
+    $ ./viron
 ```
     
 ## Features
